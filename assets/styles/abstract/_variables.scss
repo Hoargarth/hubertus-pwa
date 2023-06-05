@@ -1,0 +1,25 @@
+// font families
+$font-serif: Noto Serif, serif;
+$font-lato: Lato, sans-serif;
+
+// colors
+$color-green: #224E00;
+$color-green-light: lighten($color-green, 5%);
+$color-dark: #000000;
+$color-white: #ffffff;
+
+// spacings
+$padding-sides: 25px;
+$padding-topbottom: 50px;
+$page-padding: 100px 0;
+
+// breakpoints
+$mobile: 767px;
+$tablet: 768px;
+$desktop: 1200px;
+
+// transitions
+$base-transition: all .3s ease-in-out;
+
+// widths
+$max-page-width: 1200px;

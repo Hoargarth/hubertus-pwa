@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("Noto Serif"), url("/fonts/noto/NotoSerif-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("Noto Serif"), url("/fonts/lato/Lato-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("Noto Serif"), url("/fonts/lato/Lato-Bold.woff2") format("woff2");
+}
+
+body {
+  font-family: $font-lato;
+  font-weight: 400;
+  color: $color-dark;
+  font-size: 1.6rem;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+h1,
+h2 {
+  font-family: $font-serif;
+  color: $color-green;
+  text-align: center;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1,
+.h1 {
+  font-size: 3.8rem;
+
+  @media all and (min-widht: $tablet) {
+    font-size: 5.8rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 3.2rem;
+
+  @media all and (min-widht: $tablet) {
+    font-size: 3.8rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 2.4rem;
+}
+
+h4,
+.h4 {
+  font-size: 2rem;
+}
+
+a {
+  &:hover,
+  &:focus {
+    color: $color-green;
+  }
+}
