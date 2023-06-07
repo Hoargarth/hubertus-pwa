@@ -1,5 +1,5 @@
 <template>
-  <img
+  <nuxt-img
     :src="`/images/${src}`"
     :alt="alt"
     :title="alt"
@@ -8,6 +8,7 @@
     :class="classes"
     :width="width"
     :height="height"
+    format="webp"
   />
 </template>
 

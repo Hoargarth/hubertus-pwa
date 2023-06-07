@@ -11,5 +11,20 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+  modules: [
+    '@nuxt/image',
+    '@kevinmarrec/nuxt-pwa'
+  ],
+  pwa: {
+    workbox: {
+      enabled: true
+    },
+    manifest: {
+      name: 'SG Hubertus Pfraundorf e.V.',
+      lang: 'de',
+      background_color: '#224E00',
+      theme_color: '#224E00'
+    }
   }
 })

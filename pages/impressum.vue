@@ -80,6 +80,15 @@
   </div>
 </template>
 
+<script setup lang="ts">
+  useSeoMeta({
+    title: 'Impressum | SG Hubertus Pfraundorf e.V.',
+    ogTitle: 'Impressum | SG Hubertus Pfraundorf e.V.',
+    ogImage: '/images/loo-large.webp',
+    twitterCard: 'summary_large_image',
+  })
+</script>
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .privacy {
